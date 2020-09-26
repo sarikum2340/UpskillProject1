@@ -37,8 +37,8 @@ Then I verify sent message
 
 Examples:
 |browser|firstName|lastName|email           |username  |password    |confirmPass|phone     |code    |skype          |linkdin             |confirmEmail    |toSend  |
-|chrome|Linda    |Anderson|linda@gmail.com |Krishna25|Linda!@#123 |Linda!@#123|0987654321|Upskills|Linda@skype.in |Linda@linkdin.co.in |linda@gmail.com |naveen1 |
-|firefox|Andrew   |Symond  |symond@gmail.com|Radha25|Andrew@#123 |Andrew@#123|0987654321|Upskills|Andrew@skype.in|Andrew@linkdin.co.in|symond@gmail.com|naveen1 |
+|chrome|Linda    |Anderson|linda@gmail.com |Krishna26|Linda!@#123 |Linda!@#123|0987654321|Upskills|Linda@skype.in |Linda@linkdin.co.in |linda@gmail.com |naveen1 |
+|firefox|Andrew   |Symond  |symond@gmail.com|Radha26|Andrew@#123 |Andrew@#123|0987654321|Upskills|Andrew@skype.in|Andrew@linkdin.co.in|symond@gmail.com|naveen1 |
 
 
 
