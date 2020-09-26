@@ -1,0 +1,426 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 24,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-09-26T14:20:01.022Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TestSignUp.setUp()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "",
+        "description": "",
+        "id": "test-upskills-my-organisation;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 951000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TestSignUp.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 56663000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I navigate to the application in browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinitions.TestSignUp.i_navigate_to_the_application_in_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13378000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on sign UP",
+            "match": {
+              "location": "stepDefinitions.TestSignUp.i_click_on_sign_up()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2426000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I Fill the registration form and click on register \"Linda\",\"Anderson\",\"linda@gmail.com\",\"Krishna19\",\"Linda!@#123\",\"Linda!@#123\",\"0987654321\",\"Upskills\",\"Linda@skype.in\",\"Linda@linkdin.co.in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Linda\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"Anderson\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"linda@gmail.com\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"Krishna19\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"Linda!@#123\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"Linda!@#123\"",
+                  "offset": 114
+                },
+                {
+                  "val": "\"0987654321\"",
+                  "offset": 128
+                },
+                {
+                  "val": "\"Upskills\"",
+                  "offset": 141
+                },
+                {
+                  "val": "\"Linda@skype.in\"",
+                  "offset": 152
+                },
+                {
+                  "val": "\"Linda@linkdin.co.in\"",
+                  "offset": 169
+                }
+              ],
+              "location": "stepDefinitions.TestSignUp.i_fill_the_registration_form_and_click_on_register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5211000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I Verify user is registered successully",
+            "match": {
+              "location": "stepDefinitions.TestSignUp.i_verify_user_is_registered_successully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 710000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I verify user\u0027s mail ID \"linda@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"linda@gmail.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.TestSignUp.i_verify_user_s_mail_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2935000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I Click on Home page",
+            "match": {
+              "location": "stepDefinitions.TestSignUp.i_click_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43968000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I Compose mail and send to one user \"naveen1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"naveen1\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinitions.TestSignUp.i_compose_mail_and_send_to_one_user(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I verify sent message",
+            "match": {
+              "location": "stepDefinitions.TestSignUp.i_verify_sent_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signUp"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-09-26T14:22:07.561Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TestSignUp.setUp()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "",
+        "description": "",
+        "id": "test-upskills-my-organisation;;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2131000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TestSignUp.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 85411000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I navigate to the application in browser \"firefox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"firefox\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinitions.TestSignUp.i_navigate_to_the_application_in_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10581000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on sign UP",
+            "match": {
+              "location": "stepDefinitions.TestSignUp.i_click_on_sign_up()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1222000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I Fill the registration form and click on register \"Andrew\",\"Symond\",\"symond@gmail.com\",\"Radha19\",\"Andrew@#123\",\"Andrew@#123\",\"0987654321\",\"Upskills\",\"Andrew@skype.in\",\"Andrew@linkdin.co.in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Andrew\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"Symond\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"symond@gmail.com\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"Radha19\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"Andrew@#123\"",
+                  "offset": 98
+                },
+                {
+                  "val": "\"Andrew@#123\"",
+                  "offset": 112
+                },
+                {
+                  "val": "\"0987654321\"",
+                  "offset": 126
+                },
+                {
+                  "val": "\"Upskills\"",
+                  "offset": 139
+                },
+                {
+                  "val": "\"Andrew@skype.in\"",
+                  "offset": 150
+                },
+                {
+                  "val": "\"Andrew@linkdin.co.in\"",
+                  "offset": 168
+                }
+              ],
+              "location": "stepDefinitions.TestSignUp.i_fill_the_registration_form_and_click_on_register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3380000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I Verify user is registered successully",
+            "match": {
+              "location": "stepDefinitions.TestSignUp.i_verify_user_is_registered_successully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 516000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I verify user\u0027s mail ID \"symond@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"symond@gmail.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.TestSignUp.i_verify_user_s_mail_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4123000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I Click on Home page",
+            "match": {
+              "location": "stepDefinitions.TestSignUp.i_click_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20935000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I Compose mail and send to one user \"naveen1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"naveen1\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinitions.TestSignUp.i_compose_mail_and_send_to_one_user(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I verify sent message",
+            "match": {
+              "location": "stepDefinitions.TestSignUp.i_verify_sent_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signUp"
+          }
+        ]
+      }
+    ],
+    "name": "Test Upskills My organisation",
+    "description": "This Feature contains Sign up of a user and verify the User name on successfull signup\n1.I navigate to the application \n2.I click on sign UP\n3.I Click on teach courses\n4.I enter first name\n5.I enter Last name and email id\n6.I enter unique  username\n7.I enter password and I enter confirmpassword\n8.I enter phone number\n9.I select Language\n10.I enter Code\n11.I enter skpe\n12.I enter linkdin profile Url\n13.I clicked on Register\n14.I Verify that the user is registered successully \n15.I Verify that mail id is same in user dropdown\n16.I Click on Home page\n17 I Click on Compose\n18.I Write a mail and send it to User 2\n19.I verify that the message is sent \"The message has been sent to \u0027Username\u0027\"",
+    "id": "test-upskills-my-organisation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/UpskillProject1.feature",
+    "tags": [
+      {
+        "name": "@signUp",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

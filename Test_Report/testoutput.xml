@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="255.136">
+<testcase classname="Test Upskills My organisation" name="_2" time="126.427">
+<system-out><![CDATA[Given I navigate to the application in browser "chrome".....................passed
+When I click on sign UP.....................................................passed
+And I Fill the registration form and click on register "Linda","Anderson","linda@gmail.com","Krishna19","Linda!@#123","Linda!@#123","0987654321","Upskills","Linda@skype.in","Linda@linkdin.co.in".passed
+Then I Verify user is registered successully................................passed
+And I verify user's mail ID "linda@gmail.com"...............................passed
+Then I Click on Home page...................................................passed
+And I Compose mail and send to one user "naveen1"...........................passed
+Then I verify sent message..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Upskills My organisation" name="_3" time="128.371">
+<system-out><![CDATA[Given I navigate to the application in browser "firefox"....................passed
+When I click on sign UP.....................................................passed
+And I Fill the registration form and click on register "Andrew","Symond","symond@gmail.com","Radha19","Andrew@#123","Andrew@#123","0987654321","Upskills","Andrew@skype.in","Andrew@linkdin.co.in".passed
+Then I Verify user is registered successully................................passed
+And I verify user's mail ID "symond@gmail.com"..............................passed
+Then I Click on Home page...................................................passed
+And I Compose mail and send to one user "naveen1"...........................passed
+Then I verify sent message..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
