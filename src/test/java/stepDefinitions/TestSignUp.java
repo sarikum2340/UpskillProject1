@@ -107,7 +107,7 @@ public class TestSignUp extends TestBase {
 		pausePage(30);
 		//util.getElement(HomePage.sendTo).click();
 		util.getElement(HomePage.sendTo).sendKeys(string);
-		pausePage(2000);
+		pausePage(4000);
 		util.waitForElement(HomePage.listOfDynamicDropdown);
 		action.moveToElement(util.getElement(HomePage.sendToMail)).build().perform();
 		action.click(util.getElement(HomePage.sendToMail)).build().perform();	
