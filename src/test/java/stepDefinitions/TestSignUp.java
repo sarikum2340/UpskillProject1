@@ -104,7 +104,7 @@ public class TestSignUp extends TestBase {
 		Actions action= new Actions(driver);
 		Utils util = new Utils(driver);
 		util.clickAndWait(HomePage.composeMail);
-		pausePage(30);
+		pausePage(300);
 		//util.getElement(HomePage.sendTo).click();
 		util.getElement(HomePage.sendTo).sendKeys(string);
 		pausePage(4000);
